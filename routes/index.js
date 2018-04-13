@@ -3,7 +3,7 @@ MovieController = require('../controllers/movie-controller');
 module.exports = (server) => {
     // Envoi les parametres req et res de facon cachée a votre fonction.
 
-    //USER
+    //USERZ
     server.get('/users',UserController.readAll);
     server.get('/user/:id',UserController.read);
     server.post('/user',UserController.create);
